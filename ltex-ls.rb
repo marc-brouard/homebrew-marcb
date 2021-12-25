@@ -17,7 +17,7 @@ class LtexLs < Formula
     # system './configure', *std_configure_args, '--disable-silent-rules'
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     bin.install 'bin/ltex-cli'
-    bin.install 'bin/ltex.ls'
+    bin.install 'bin/ltex-ls'
     bin.install Dir['lib']
   end
 
